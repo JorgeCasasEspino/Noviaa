@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
     <title>Para Vero</title>
     <style>
         body {
-            background-color: maroon;
+            background-color: #c62828;
         }
     </style>
     <script>
         function accionSiSeleccionaSi(){
-            alert('Listo! somos novios por segunda vez Princesa!'
+            alert('Excelente decisión! ahora somo novios Princesa!'
             )
         }
         function moverElBotono(){
@@ -30,10 +31,19 @@
     </script>
 </head>
 <body>
-    <h2>Se que ya somos novios, pero va mi minuta <br>¿Te gustaría ser mi novia Vero?  </h2>
-    <input type="button" onclick="accionSiSeleccionaSi()" id="btnSi" value="Si"/>
-    <input type="button" id="btnNo" onmouseover="moverElBotono()" value="No"/>
-    <img src="img/Veroyyo.jpg" width="280">
+    <div class="contenedor">
+    <h2>Ya sabes que me encantas Vero y que te quiero, por eso te pregunto  </h2>
+    </div>
+    <div class="contin"><h1>¿Te gustaría ser mi novia hermosa? </h1></div>
+    <div class="foto"> <img src="img/Veroyyo.jpg" class="imagen" width="290">
+    </div>
+   
+        <div class="botns">
+        <input type="button" class="chido" onclick="accionSiSeleccionaSi()" id="btnSi" value="Si"/>
+        
+        
+        <input type="button" id="btnNo" onmouseover="moverElBotono()" value="No"/>
+        </div>
     
 </body>
 </html>

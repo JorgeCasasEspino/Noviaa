@@ -1,0 +1,48 @@
+.contenedor, .contin{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+  }
+
+  .foto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  .imagen{
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+
+  .botns {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chido{
+    width:100px;
+    height:70px;
+    background: white;
+    border-style: none;
+    color:black;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+    border-radius: 7%;
+    
+}
